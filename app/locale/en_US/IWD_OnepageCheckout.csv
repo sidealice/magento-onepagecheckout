@@ -1,0 +1,139 @@
+Standard,Standard
+Minimal,Minimal
+Optional,Optional
+Required,Required
+Hidden,Hidden
+The one page checkout is disabled.,The one page checkout is disabled.
+One Page Checkout Section,One Page Checkout Section
+One Page Checkout,One Page Checkout
+Default Shipping Method,Default Shipping Method
+Default Payment Method,Default Payment Method
+Default Country,Default Country
+GeoIP,GeoIP
+Enable Country Detection,Enable Country Detection
+<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz' title='Download GeoIP database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it,<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz' title='Download GeoIP database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it
+Enable City Detection,Enable City Detection
+<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz' title='Download GeoCity database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it,<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz' title='Download GeoCity database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it
+Show Shipping Address Form,Show Shipping Address Form
+Show Subscribe to Newsletter Checkbox,Show Subscribe to Newsletter Checkbox
+Address Form Fields,Address Form Fields
+"Before changing some of the fields, be sure that your payment/shipping provider does not require them","Before changing some of the fields, be sure that your payment/shipping provider does not require them"
+Output Type,Output Type
+Create account for later use,Create account for later use
+Checkout Review,Checkout Review
+Already registered? Click here to login,Already registered? Click here to login
+Show Comment Field,Show Comment Field
+New Address,New Address
+Country,Country
+Checkout,Checkout
+Coupon code was canceled.,Coupon code was canceled.
+Cannot apply the coupon code.,Cannot apply the coupon code.
+"Coupon code ""%s"" was applied.","Coupon code ""%s"" was applied."
+"Coupon code ""%s"" is not valid.","Coupon code ""%s"" is not valid."
+Please enter your email.,Please enter your email.
+Invalid email address.,Invalid email address.
+This email address was not found in our records.,This email address was not found in our records.
+A new password has been sent.,A new password has been sent.
+Login and password are required.,Login and password are required.
+"Email is not confirmed. <a href=""%s"">Resend confirmation email.</a>","Email is not confirmed. <a href=""%s"">Resend confirmation email.</a>"
+Please agree to all the terms and conditions.,Please agree to all the terms and conditions.
+There was an error processing your order. Please contact support or try again later.,There was an error processing your order. Please contact support or try again later.
+Unable to set Payment Method.,Unable to set Payment Method.
+"Sorry, subscription for guests is not allowed. Please <a href=""%s"">register</a>.","Sorry, subscription for guests is not allowed. Please <a href=""%s"">register</a>."
+"Sorry, you are trying to subscribe email assigned to another user.","Sorry, you are trying to subscribe email assigned to another user."
+Please check shipping address information. %s,Please check shipping address information. %s
+Please specify a shipping method.,Please specify a shipping method.
+Please check billing address information. %s,Please check billing address information. %s
+Please select a valid payment method.,Please select a valid payment method.
+This email adress is already registered. Please enter another email to register account or login using this email.,This email adress is already registered. Please enter another email to register account or login using this email.
+Invalid data.,Invalid data.
+Invalid shipping method.,Invalid shipping method.
+Customer Address is not valid.,Customer Address is not valid.
+"Invalid email address ""%s""","Invalid email address ""%s"""
+Invalid checkout type.,Invalid checkout type.
+"Sorry, guest checkout is not allowed, please contact support.","Sorry, guest checkout is not allowed, please contact support."
+Please check shipping address.,Please check shipping address.
+Please check billing address.,Please check billing address.
+Please enter the first name.,Please enter the first name.
+Please enter the last name.,Please enter the last name.
+Please enter the company.,Please enter the company.
+Please enter the state/province.,Please enter the state/province.
+Please enter the street.,Please enter the street.
+Please enter the city.,Please enter the city.
+Please enter the zip code.,Please enter the zip code.
+Please enter the phone number.,Please enter the phone number.
+Please enter the fax.,Please enter the fax.
+Please choose the country.,Please choose the country.
+"Account confirmation is required. Please, check your email for confirmation link. <a href=""%s"">Click here</a> to resend confirmation email.","Account confirmation is required. Please, check your email for confirmation link. <a href=""%s"">Click here</a> to resend confirmation email."
+Forgot Password?,Forgot Password?
+Please enter your email below and we will send you a new password.,Please enter your email below and we will send you a new password.
+Email,Email
+Back to Login,Back to Login
+Submit,Submit
+Login to your Account,Login to your Account
+Email Address,Email Address
+Password,Password
+Forgot Your Password?,Forgot Your Password?
+Login,Login
+Fill in the fields below to complete your purchase!,Fill in the fields below to complete your purchase!
+Comment,Comment
+Sign up for our newsletter,Sign up for our newsletter
+"Sorry, no quotes are available for this order at this time.","Sorry, no quotes are available for this order at this time."
+Product Name,Product Name
+Qty,Qty
+Subtotal,Subtotal
+Total,Total
+Total incl. tax,Total incl. tax
+Your credit card will be charged for,Your credit card will be charged for
+Please enter your full address to obtain a shipping quote.,Please enter your full address to obtain a shipping quote.
+Incl. Tax,Incl. Tax
+Name & Address,Name & Address
+Select a billing address from your address book or enter a new address.,Select a billing address from your address book or enter a new address.
+Company,Company
+Address,Address
+Street Address,Street Address
+Street Address %s,Street Address %s
+City,City
+State / Province,State / Province
+Select One,Select One
+Zip Code,Zip Code
+Telephone,Telephone
+Fax,Fax
+Create an account for later use,Create an account for later use
+Confirm Password,Confirm Password
+Save in address book,Save in address book
+Discount Codes,Discount Codes
+Enter your coupon code if you have one.,Enter your coupon code if you have one.
+Cancel Coupon,Cancel Coupon
+Apply Coupon,Apply Coupon
+Proceed to Checkout,Proceed to Checkout
+Payment Method,Payment Method
+Close,Close
+Card Verification Number Visual Reference,Card Verification Number Visual Reference
+Review Your Order,Review Your Order
+Place Order Now,Place Order Now
+Submitting order information...,Submitting order information...
+Shipping Method,Shipping Method
+Ship to this address,Ship to this address
+New Shipping Address,New Shipping Address
+Select a shipping address from your address book or enter a new address.,Select a shipping address from your address book or enter a new address.
+Date of Birth,Date of Birth
+Day,Day
+Month,Month
+Year,Year
+DD,DD
+MM,MM
+YYYY,YYYY
+Gender,Gender
+Prefix,Prefix
+First Name,First Name
+M.I.,M.I.
+Last Name,Last Name
+Suffix,Suffix
+Tax/VAT number,Tax/VAT number
+THE SHOPPING CART IS CURRENTLY EMPTY,THE SHOPPING CART IS CURRENTLY EMPTY
+Thank you for visiting,Thank you for visiting
+"If you are having issues with the shopping cart, <br />please","If you are having issues with the shopping cart, <br />please"
+email support,email support
+or call,or call
+CONTINUE SHOPPING,CONTINUE SHOPPING

@@ -1,0 +1,139 @@
+Standard,Standaard
+Minimal,Minimaal
+Optional,Optioneel
+Required,Verplicht
+Hidden,Verborgen
+The one page checkout is disabled.,Deze 1 pagina checkout is niet beschikbaar.
+One Page Checkout Section,One Page Checkout sectie
+One Page Checkout,CiderCider
+Default Shipping Method,Standaard verzend methode
+Default Payment Method,Standaard betaal methode
+Default Country,Standaard land
+GeoIP,GeoIP
+Enable Country Detection,Land detectie aan
+<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz' title='Download GeoIP database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it,<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz' title='Download GeoIP database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it
+Enable City Detection,Stad detectie aan
+<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz' title='Download GeoCity database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it,<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz' title='Download GeoCity database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it
+Show Shipping Address Form,Geef verzend adres weer
+Show Subscribe to Newsletter Checkbox,Geef nieuwsbrief inschrijf checkbox weer
+Address Form Fields,Adres vorm veld
+"Before changing some of the fields, be sure that your payment/shipping provider does not require them","Before changing some of the fields, be sure that your payment/shipping provider does not require them"
+Output Type,Output Type
+Create account for later use,"Cree'r een account voor later gebruik"
+Checkout Review,Checkout Review
+Already registered? Click here to login,Al gregistreerd? Klik hier om in te loggen
+Show Comment Field,Geef een commentaar veld weer
+New Address,Nieuw adres
+Country,Land
+Checkout,Checkout
+Coupon code was canceled.,De kortingscode is geannuleerd.
+Cannot apply the coupon code.,De kortingscode kan niet gebruikt worden.
+"Coupon code ""%s"" was applied.","Kortingscode ""%s"" is toegepast."
+"Coupon code ""%s"" is not valid.","Kortingscode ""%s"" is niet geldig."
+Please enter your email.,Vul alstublieft uw emailadres in.
+Invalid email address.,Ongeldig emailadres.
+This email address was not found in our records.,Dit emailadres is niet bij ons bekend.
+A new password has been sent.,Een nieuw wachtwoord is veerzonden.
+Login and password are required.,Login en wachtwoord zijn verplicht.
+"Email is not confirmed. <a href=""%s"">Resend confirmation email.</a>","Emailadres is niet bevestigd. <a href=""%s"">Verstuur bevestigingsmail nogmaals.</a>"
+Please agree to all the terms and conditions.,Ga akkoord met de algemene voorwaarden.
+There was an error processing your order. Please contact support or try again later.,Er was een probleem met uw order. Neem contact op of probeer het nogmaals.
+Unable to set Payment Method.,Niet mogelijk om de betaal methode te selecteren.
+"Sorry, subscription for guests is not allowed. Please <a href=""%s"">register</a>.","Sorry, inschrijven is voor gasten niet toegestaan.  <a href=""%s"">Registeer</a> alstublieft."
+"Sorry, you are trying to subscribe email assigned to another user.","Sorry, u probeet in te schrijven met een emailadres dat al gebruikt wordt."
+Please check shipping address information. %s,Controleer alstublieft uw verzend adres. %s
+Please specify a shipping method.,Selecteer een verzend methode.
+Please check billing address information. %s,Controleer alstublieft uw factuur adres. %s
+Please select a valid payment method.,Selecteer een geldige betaalmethode
+This email adress is already registered. Please enter another email to register account or login using this email.,Dit emailadres is al geregisteerd,  gebruik een ander emailadres om te registreren of log in met dit adres.
+Invalid data.,Ongeldige gegevens.
+Invalid shipping method.,Ongeldige verzend methode.
+Customer Address is not valid.,Klant adres is niet geldig.
+"Invalid email address ""%s""","Ongeldig emailadres ""%s"""
+Invalid checkout type.,Ongeldig checkout type.
+"Sorry, guest checkout is not allowed, please contact support.","Sorry, afrekenen als gast is niet toegestaan, neem contact op de beheerder."
+Please check shipping address.,Controleer uw verzend adres.
+Please check billing address.,Controleer uw factuur adres.
+Please enter the first name.,Vul uw voornaam in.
+Please enter the last name.,Vul uw achtenaam in.
+Please enter the company.,Vul uw berijf in.
+Please enter the state/province.,Vul uw provincie in.
+Please enter the street.,Vul uw adres in.
+Please enter the city.,Vul uw stad in.
+Please enter the zip code.,Vul uw postcode in.
+Please enter the phone number.,Vul uw telefoonnummer in.
+Please enter the fax.,Vul uw fax in.
+Please choose the country.,Kies uw land.
+"Account confirmation is required. Please, check your email for confirmation link. <a href=""%s"">Click here</a> to resend confirmation email.","Account bevestiging is verplcht. Controleer alstublieft uw email voor bevestiging. <a href=""%s"">Klik hier</a> om de bevestiginsmail nogmaals te sturen."
+Forgot Password?,Wachtwoord vergeten?
+Please enter your email below and we will send you a new password.,Vul atublieft uw emailadres in dan kunnen we een nieuw wachtwoord sturen.
+Email,Email
+Back to Login,Terug naar login
+Submit,Verstuur
+Login to your Account,Login op uw account
+Email Address,Emailadres
+Password,Wachtwoord
+Forgot Your Password?,Wachtwoord vergeten?
+Login,Login
+Fill in the fields below to complete your purchase!,Vul uw gegevens in om de bestelling af te ronden!
+Comment,Opmerkingen
+Sign up for our newsletter,Schrijf in voor de nieuwsbrief
+"Sorry, no quotes are available for this order at this time.","Sorry, op dit moment zijn er geen prijzen beschikbaar voor deze bestelling."
+Product Name,Product naam
+Qty,Aantal
+Subtotal,Subtotaal
+Total,Totaal
+Total incl. tax,Totaal incl. btw
+Your credit card will be charged for,Uw creditcard zal belast worden met
+Please enter your full address to obtain a shipping quote.,Vul alstublieft uw adres in om een verzendbedrag te krijgen.
+Incl. Tax,Incl. btw
+Name & Address,Naam en adres
+Select a billing address from your address book or enter a new address.,Selecteer een factuuradres uit uw adresboek of vul een nieuw adres in.
+Company,Bedrijf
+Address,Adres
+Street Address,Adres
+Street Address %s,Adres %s
+City,Stad
+State / Province,Provincie
+Select One,Selecteer
+Zip Code,Postcode
+Telephone,Telefoonnummer
+Fax,Fax
+Create an account for later use,"Cree'r een account voor later gebruik"
+Confirm Password,Bevestig wachtwoord
+Save in address book,Bewaar in adresboek
+Discount Codes,Kortingscode
+Enter your coupon code if you have one.,Voer een kortingscode in als u die heeft
+Cancel Coupon,Annuleer kortingscode
+Apply Coupon,Pas kortingscode toe
+Proceed to Checkout,Ga door naar afrekenen
+Payment Method,Betaal methode
+Close,Sluit
+Card Verification Number Visual Reference,Card Verification Number Visual Reference
+Review Your Order,Controleer uw bestelling
+Place Order Now,Plaats uw bestelling
+Submitting order information...,Submitting order information...
+Shipping Method,Verzendwijze
+Ship to this address,Verzend naar dit adres
+New Shipping Address,Nieuw verzend adres
+Select a shipping address from your address book or enter a new address.,Select a shipping address from your address book or enter a new address.
+Date of Birth,Geboortedatum
+Day,Dag
+Month,Maand
+Year,Jaar
+DD,DD
+MM,MM
+YYYY,JJJJ
+Gender,Geslacht
+Prefix,Prefix
+First Name,Voornaam
+M.I.,M.I.
+Last Name,Achternaam
+Suffix,Suffix
+Tax/VAT number,BTW nummer
+THE SHOPPING CART IS CURRENTLY EMPTY,DE WINKELWAGEN IS MOMENTEEL LEEG
+Thank you for visiting,Dank voor uw bezoek
+"If you are having issues with the shopping cart, <br />please","Als u problemen met de winkelwage heeft, <br />alstublieft"
+email support,email ondersteuning
+or call,of bel
+CONTINUE SHOPPING,GA DOOR MET WINKELEN

@@ -1,0 +1,140 @@
+Standard,Стандартно
+Minimal,Минимум
+Optional,Опцыонально
+Required,Обязательно
+Hidden,Скрытое
+The one page checkout is disabled.,One page checkout отключён.
+One Page Checkout Section,Секцыя One Page Checkout
+One Page Checkout,One Page Checkout
+Default Shipping Method,Метод доставки по умолчанию
+Default Payment Method,Платежный метод по умолчанию
+Default Country,Страна по умолчанию
+GeoIP,GeoIP
+Enable Country Detection,Включить Автоопределение Страны
+<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz' title='Download GeoIP database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it,<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz' title='Загрузить базу GeoIP'>Загрузить</a> и распаковать файл в папке 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' если его там нет
+Enable City Detection,Включить Автоопределение Города
+<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz' title='Download GeoCity database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it,<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz' title='Загрузить базу GeoCity'>Загрузить</a> и распаковать файл в папке 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' если его там нет
+Show Shipping Address Form,Показать форму Адреса доставки
+Show Subscribe to Newsletter Checkbox,Показать чекбокс для подписки на новости
+Address Form Fields,Поля Формы Адреса
+"Before changing some of the fields, be sure that your payment/shipping provider does not require them","Прежде чем менять поля, убедитесь что они не обязательны для Вашего payment/shipping провайдера"
+Output Type,Тип вывода
+Already registered? Click here to login,Уже зарегестрированы? Нажмите чтобы войти
+Show Comment Field,Показать поле для коментариев
+New Address,Новый Адрес
+Country,Страна
+Checkout,Checkout
+Coupon code was canceled.,Код купона отменён.
+Cannot apply the coupon code.,Не возможно применить код купона.
+"Coupon code ""%s"" was applied.","Код купона ""%s"" применён."
+"Coupon code ""%s"" is not valid.","Код купона ""%s"" недействителен."
+Please enter your email.,Пожалуйста введите Ваш email.
+Invalid email address.,Неверный email.
+This email address was not found in our records.,Этот email не найден в наших записях.
+A new password has been sent.,Новый пароль был выслан.
+Login and password are required.,Логин и пароль необходимы.
+"Email is not confirmed. <a href=""%s"">Resend confirmation email.</a>","Email не подтверждён. <a href=""%s"">Выслать подтверждающее письмо.</a>"
+Please agree to all the terms and conditions.,Пожалуйста согласитесь с правилами и условиями использования.
+There was an error processing your order. Please contact support or try again later.,Произошла ошибка в обработке Вашего заказа. Пожалуйста свяжитесь с службой поддержки или попробуйте снова.
+Unable to set Payment Method.,Невозможно установить платежный метод.
+"Sorry, subscription for guests is not allowed. Please <a href=""%s"">register</a>.","Извините, подписка для гостей не разрешена. Пожалуйста <a href=""%s"">зарегистрируйтесь</a>."
+"Sorry, you are trying to subscribe email assigned to another user.","Извините, Вы пытаетесь использовать для подписки email принадлежащий другому пользователю."
+Please check shipping address information. %s,Пожалуйста проверьте адрес доставки. %s
+Please specify a shipping method.,Пожалуйста укажите метод доставки.
+Please check billing address information. %s,Пожалуйста проверьте платежный адрес. %s
+Please select a valid payment method.,Пожалуйста укажите корректный платежный метод.
+This email adress is already registered. Please enter another email to register account or login using this email.,Этот email уже зарегистрирован. Пожалуйста введите другой email для регистрацыи или ввойдите используя этот email.
+Invalid data.,Неверные данные.
+Invalid shipping method.,Неверный метод доставки.
+Customer Address is not valid.,Адрес покупателя неверный.
+"Invalid email address ""%s""","Неверный email ""%s"""
+Invalid checkout type.,Invalid checkout type.
+"Sorry, guest checkout is not allowed, please contact support.","Извините, покупки для незарегистрированных пользователей невозможны, пожалуйста свяжитесь с службой поддержки."
+Please check shipping address.,Подалуйста проверьте адрес доставки.
+Please check billing address.,Подалуйста проверьте платежный адрес.
+Please enter the first name.,Подалуйста введите имя.
+Please enter the last name.,Подалуйста введите фамилию.
+Please enter the company.,Подалуйста  введите компанию.
+Please enter the state/province.,Подалуйста введите область/регион.
+Please enter the street.,Подалуйста введите улицу.
+Please enter the city.,Подалуйста введите город.
+Please enter the zip code.,Подалуйста введите почтовый индекс.
+Please enter the phone number.,Подалуйста введите номер телефона.
+Please enter the fax.,Подалуйста введите номер факса.
+Please choose the country.,Подалуйста укажите страну.
+"Account confirmation is required. Please, check your email for confirmation link. <a href=""%s"">Click here</a> to resend confirmation email.","Необходимо подтверждение акаунта. Пожалуйста, проверьте Ваше письмо на наличие ссылки для подтверждения. <a href=""%s"">Нажмите сдесь</a> для отправки подтверждающего письма."
+Forgot Password?,Забыли Пароль?
+Please enter your email below and we will send you a new password.,Пожалуйста укажите Ваш email ниже и мы пришлём Вам новий пароль.
+Email,Email
+Back to Login,Возвратиться для Входа
+Submit,Применить
+Login to your Account,Ввойти в Ваш Аккаунт
+Email Address,Email адрес
+Password,Пароль
+Forgot Your Password?,Забыли Ваш Пароль?
+Login,Войти
+Fill in the fields below to complete your purchase!,Заполните поля ниже для завершения покупки!
+Comment,Комментарий
+Sign up for our newsletter,Подписаться на новости
+"Sorry, no quotes are available for this order at this time.","Извините, на данный момент нет возможности совершить этот заказ."
+Product Name,Имя продукта
+Qty,К-во
+Subtotal,Сумма
+Total,Сумма
+Grand Total,Итого
+Total incl. tax,Total incl. tax
+Your credit card will be charged for,С Вашей кредитной карты будет изято 
+Please enter your full address to obtain a shipping quote.,Пожалуйста введите Ваш полный адрес для поиска способа доставки.
+Incl. Tax,Incl. Tax
+Name & Address,Имя и Адрес
+Select a billing address from your address book or enter a new address.,Выбирите платежный адрес с Вашей адресной книги или введите новый адрес.
+Company,Копания
+Address,Адрес
+Street Address,Улица
+Street Address %s,Улица %s
+City,Город
+State / Province,Область / Регион
+Select One,Выбирите один
+Zip Code,Почтовый индекс
+Telephone,Телефон
+Fax,Факс
+Create an account for later use,Создать аккаунт для последующего использования
+Confirm Password,Подтвердите Пароль
+Save in address book,Сохранить в адресной книге
+Discount Codes,Дисконтные Коды
+Enter your coupon code if you have one.,Введите код купона если у Вас есть.
+Cancel Coupon,Отменить Купон
+Apply Coupon,Применить Купон
+Proceed to Checkout,Оформить Заказ
+Payment Method,Платежный Метод
+Close,Закрыть
+Card Verification Number Visual Reference,Card Verification Number Visual Reference
+Review Your Order,Просмотрите Ваш Заказ
+Place Order Now,Сделать Заказ 
+Submitting order information...,Обработка заказа...
+Shipping Method,Метод Доставки
+Ship to this address,Доставить по этому адресу
+New Shipping Address,Новий Адрес Доставки
+Select a shipping address from your address book or enter a new address.,Выбирите адрес доставки с Вашей адресной книги или введите новый адрес.
+Date of Birth,Дата рождения
+Day,День
+Month,Месяц
+Year,Год
+DD,ДД
+MM,MM
+YYYY,ГГГГ
+Gender,Пол
+Prefix,Префикс
+First Name,Имя
+M.I.,M.I.
+Last Name,Фамилия
+Suffix,Суфикс
+Tax/VAT number,Tax/VAT number
+THE SHOPPING CART IS CURRENTLY EMPTY,КОРЗИНА ПУСТА
+Thank you for visiting,Спасибо за визит
+"If you are having issues with the shopping cart, <br />please","Если у вас есть проблемы с заказами, <br />пожалуйста"
+email support,отправте письмо в поддержку
+or call,или позвоните
+CONTINUE SHOPPING,ПРОДОЛЖИТЬ ПОКУПКИ
+
+

@@ -1,0 +1,216 @@
+<?php
+if(Mage::helper('onepagecheckout')->isAddressVerificationEnabled()):
+
+	$allow_not_valid	= Mage::helper('onepagecheckout')->allowNotValidAddress(); // if not valid addresses allowed for checkout
+
+	$spec_bill_error	= '';
+	
+	$av_msg = 'Address Validation';
+	$bill_msg	= 'Please review your billing address and make any necessary changes. ';
+	$bill_validation_results	= $this->getBillingValidationResults();
+	if($bill_validation_results){
+		if(isset($bill_validation_results['error']) && !empty($bill_validation_results['error']))
+		{
+			if($bill_validation_results['error'] != 'YES' && $bill_validation_results['error'] != 'NO')
+				$spec_bill_error	= $bill_validation_results['error'];
+			
+			if($bill_validation_results['error'] != 'YES')
+			{
+				$av_msg = 'Address Cannot Be Verified';
+				if($allow_not_valid)
+					$bill_msg.= '<br/>You may use your original billing address if no changes are required.';
+				else
+					$bill_msg= 'Billing address is not valid.<br/>'.$bill_msg;
+			}
+		}
+	}
+	
+	$spec_ship_error	= '';
+	
+	$ship_msg	= 'Please review your shipping address and make any necessary changes. ';
+	$ship_validation_results	= $this->getShippingValidationResults();
+	if($ship_validation_results){
+		if(isset($ship_validation_results['error']) && !empty($ship_validation_results['error']))
+		{
+			if($ship_validation_results['error'] != 'YES' && $ship_validation_results['error'] != 'NO')
+				$spec_ship_error	= $ship_validation_results['error'];
+
+			if($ship_validation_results['error'] != 'YES')
+			{
+				$av_msg = 'Address Cannot Be Verified';
+				if($allow_not_valid)
+					$ship_msg.= '<br/>You may use your original shipping address if no changes are required.';
+				else
+					$ship_msg= 'Shipping address is not valid.<br/>'.$ship_msg;
+			}
+		}
+	}
+?>
+<div class='iwd-verification-title'>
+	<div class="head">
+		<h3><?php echo $av_msg;?></h3>
+	</div>
+</div>
+<div class="container onepagecheckout">
+<?php 
+	$candidates_exists	= false;
+
+	if(isset($spec_bill_error) && !empty($spec_bill_error))
+		echo "<p style='color:red;'>$spec_bill_error</p>";
+
+	if(isset($spec_ship_error) && !empty($spec_ship_error))
+		echo "<p style='color:red;'>$spec_ship_error</p>";
+		
+	if($bill_validation_results):
+	?>
+		<p><?php echo $bill_msg;?></p>
+<?php if($ship_validation_results):?>
+	<?php if($allow_not_valid):?>
+		<div class='bs_tit'>Billing Address:</div>
+	<?php else:?>
+			<?php if(isset($bill_validation_results['candidates']) && !empty($bill_validation_results['candidates'])):?>
+		<div class='bs_tit'>Billing Address:</div>
+			<?php endif;?>
+	<?php endif;?>		
+<?php endif;?>
+<?php if($allow_not_valid):?>
+		<div class='va_label'>Use Original Address</div>
+		<div class='va_choice'>
+			<input class='va_bill_id' type='radio' name='va_bill_id' value='use_original_address' />
+			<?php
+			$o_a = $bill_validation_results['original_address']; 
+			echo "{$o_a['street']}, {$o_a['city']}, {$o_a['state']}, {$o_a['zip_code']}"; ?>
+			<br/>
+		</div>
+		<div class='clear'></div>
+<?php endif;?>
+	<?php 
+		if(isset($bill_validation_results['error']) && !empty($bill_validation_results['error'])):
+			if(isset($bill_validation_results['candidates']) && !empty($bill_validation_results['candidates'])):
+				$candidates_exists	= true;
+				?>
+				<div class='va_label'>Use Suggested Address</div>
+				<div class='va_choice'>
+					<?php 
+					foreach($bill_validation_results['candidates'] as $va_key => $candidate):
+					?>
+					<div class='va_candidate_row'>
+						<input class='va_bill_id' type='radio' name='va_bill_id' value='<?php echo $va_key;?>'/>
+							<input type='hidden' id='va_billing_street_<?php echo $va_key;?>' value='<?php echo $candidate['street'];?>' />
+							<input type='hidden' id='va_billing_city_<?php echo $va_key;?>' value='<?php echo $candidate['city'];?>' />
+							<input type='hidden' id='va_billing_region_<?php echo $va_key;?>' value='<?php echo $candidate['region'];?>' />
+							<input type='hidden' id='va_billing_postcode_<?php echo $va_key;?>' value='<?php echo $candidate['postcode'];?>' />
+						
+						<?php echo "{$candidate['street']}, {$candidate['city']}, {$candidate['region_abbr']}, {$candidate['postcode']}";?>
+					</div>
+					<?php 
+					endforeach;
+					?>
+				</div>
+				<div class='clear'></div>
+				<?php 
+			endif;?>
+		<?php
+		else:
+			$candidate = $bill_validation_results['candidates'][0];
+			?>			
+			<div class='va_label'>Use Suggested Address</div>
+			<div class='va_choice'>
+				<div class='va_candidate_row'>
+					<input class='va_bill_id' type='radio' name='va_bill_id' value='val'/>
+					
+					<input type='hidden' id='va_billing_street_val' value='<?php echo $candidate['street'];?>' />
+					<input type='hidden' id='va_billing_city_val' value='<?php echo $candidate['city'];?>' />
+					<input type='hidden' id='va_billing_region_val' value='<?php echo $candidate['region'];?>' />
+					<input type='hidden' id='va_billing_postcode_val' value='<?php echo $candidate['postcode'];?>' />
+					
+					<?php echo "{$candidate['street']}, {$candidate['city']}, {$candidate['region_abbr']}, {$candidate['postcode']}";?>
+				</div>
+			</div>
+			<div class='clear'></div>
+			<?php 
+		endif; 
+		echo '<br/>';
+	endif;	
+?>
+
+<?php 
+	if($ship_validation_results):
+	?>
+		<p><?php echo $ship_msg;?></p>
+<?php if($bill_validation_results):?>
+	<?php if($allow_not_valid):?>
+		<div class='bs_tit'>Shipping Address:</div>
+	<?php else:?>
+			<?php if(isset($ship_validation_results['candidates']) && !empty($ship_validation_results['candidates'])):?>		
+		<div class='bs_tit'>Shipping Address:</div>
+			<?php endif;?>
+	<?php endif;?>		
+<?php endif;?>
+<?php if($allow_not_valid):?>
+		<div class='va_label'>Use Original Address</div>
+		<div class='va_choice'>
+			<input class='va_ship_id' type='radio' name='va_ship_id' value='use_original_address' />
+			<?php
+			$o_a = $ship_validation_results['original_address']; 
+			echo "{$o_a['street']}, {$o_a['city']}, {$o_a['state']}, {$o_a['zip_code']}"; ?> 
+			<br/>
+		</div>
+		<div class='clear'></div>
+<?php endif;?>
+	<?php 
+		if(isset($ship_validation_results['error']) && !empty($ship_validation_results['error'])):
+			if(isset($ship_validation_results['candidates']) && !empty($ship_validation_results['candidates'])):
+				$candidates_exists	= true;
+				?>
+				<div class='va_label'>Use Suggested Address</div>
+				<div class='va_choice'>
+					<?php 
+					foreach($ship_validation_results['candidates'] as $va_key => $candidate):
+					?>
+					<div class='va_candidate_row'>
+						<input type='radio' class='va_ship_id' name='va_ship_id' value='<?php echo $va_key;?>'/>
+							<input type='hidden' id='va_shipping_street_<?php echo $va_key;?>' value='<?php echo $candidate['street'];?>' />
+							<input type='hidden' id='va_shipping_city_<?php echo $va_key;?>' value='<?php echo $candidate['city'];?>' />
+							<input type='hidden' id='va_shipping_region_<?php echo $va_key;?>' value='<?php echo $candidate['region'];?>' />
+							<input type='hidden' id='va_shipping_postcode_<?php echo $va_key;?>' value='<?php echo $candidate['postcode'];?>' />
+						
+						<?php echo "{$candidate['street']}, {$candidate['city']}, {$candidate['region_abbr']}, {$candidate['postcode']}";?>
+					</div>
+					<?php 
+					endforeach;
+					?>
+				</div>
+				<div class='clear'></div>
+				<?php 
+			endif;?>
+		<?php
+		else:
+			$candidate = $ship_validation_results['candidates'][0];
+			?>
+			<div class='va_label'>Use Suggested Address</div>
+			<div class='va_choice'>
+				<div class='va_candidate_row'>
+					<input class='va_ship_id' type='radio' name='va_ship_id' value='val'/>
+					
+					<input type='hidden' id='va_shipping_street_val' value='<?php echo $candidate['street'];?>' />
+					<input type='hidden' id='va_shipping_city_val' value='<?php echo $candidate['city'];?>' />
+					<input type='hidden' id='va_shipping_region_val' value='<?php echo $candidate['region'];?>' />
+					<input type='hidden' id='va_shipping_postcode_val' value='<?php echo $candidate['postcode'];?>' />
+					
+					<?php echo "{$candidate['street']}, {$candidate['city']}, {$candidate['region_abbr']}, {$candidate['postcode']}";?>
+				</div>
+			</div>
+			<div class='clear'></div>
+			<?php 
+		endif; 
+		echo '<br/>';
+	endif;	
+?>
+
+    <div style='clear:both;'></div>
+</div>
+<div class="buttons-set" id="consent-buttons-container" style='text-align:right;'>
+	<button type="button" title="<?php echo $this->__('Continue') ?>" class="button" onclick="continue_verification()"><span><span><?php echo $this->__('Continue') ?></span></span></button>
+</div>
+<?php endif;?>

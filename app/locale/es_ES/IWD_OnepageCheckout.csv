@@ -1,0 +1,139 @@
+Standard,"estándar"
+Minimal,"Mínimo"
+Optional,Opcional
+Required,Necesario
+Hidden,Oculto
+The one page checkout is disabled.,"La página de un pago y envío está desactivado."
+One Page Checkout Section,"Pedido de una página Sección"
+One Page Checkout,"Pedido de una página"
+Default Shipping Method,"Método del envío del defecto"
+Default Payment Method,Forma de pago por defecto
+Default Country,"Defecto País"
+GeoIP,GeoIP
+Enable Country Detection,"Habilitar detección País"
+<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz' title='Download GeoIP database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it,<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz' title='Download GeoIP database'>Descargar</a> y descomprimir archivos bajo el 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' si no lo tiene
+Enable City Detection,"Habilitar detección City"
+<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz' title='Download GeoCity database'>Download</a> and unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it,<a href='http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz' title='Download GeoCity database'>Descargar</a> y descomprimir archivos bajo el 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' si no lo tiene
+Show Shipping Address Form,"Mostrar Formulario de Dirección de Envío"
+Show Subscribe to Newsletter Checkbox,Show Subscribe to Newsletter Checkbox
+Address Form Fields,"Dirección de los campos del formulario"
+"Before changing some of the fields, be sure that your payment/shipping provider does not require them","Antes de cambiar algunos de los campos, asegúrese de que su proveedor de pago / envío no les exige"
+Output Type,Tipo de salida
+Create account for later use,Crear cuenta para su uso posterior
+Checkout Review,Pedido comentario
+Already registered? Click here to login,"Ya está registrado? Haga clic aquí para ingresar"
+Show Comment Field,Mostrar comentario Campo
+New Address,"Nueva dirección"
+Country,"País"
+Checkout,"Caja"
+Coupon code was canceled.,"Código de descuento fue cancelado."
+Cannot apply the coupon code.,"No se puede aplicar el código de cupón."
+"Coupon code ""%s"" was applied.","Cupón código ""% s"" fue aplicado."
+"Coupon code ""%s"" is not valid.","Cupón código ""% s"" no es válido."
+Please enter your email.,"Introduzca su dirección de correo electrónico."
+Invalid email address.,"Dirección de correo electrónico válida."
+This email address was not found in our records.,"Esta dirección de correo electrónico no se encuentra en nuestros registros."
+A new password has been sent.,"Una nueva contraseña ha sido enviada."
+Login and password are required.,"Se requieren inicio de sesión y contraseña."
+"Email is not confirmed. <a href=""%s"">Resend confirmation email.</a>","No se ha confirmado Email. <a href=""%s""> Reenviar email de confirmación. </ a>"
+Please agree to all the terms and conditions.,"Por favor, estar de acuerdo con todos los términos y condiciones."
+There was an error processing your order. Please contact support or try again later.,"Hubo un error al procesar su solicitud. Por favor, póngase en contacto con soporte o inténtelo de nuevo más tarde."
+Unable to set Payment Method.,"No se puede establecer Método de Pago."
+"Sorry, subscription for guests is not allowed. Please <a href=""%s"">register</a>.","Lo sentimos, no se permite la suscripción a los huéspedes. Por favor, <a href=""%s""> registro </ a>."
+"Sorry, you are trying to subscribe email assigned to another user.","Lo sentimos, usted está tratando de suscripción de correo electrónico asignada a otro usuario."
+Please check shipping address information. %s,"Por favor, consulte la información de dirección de envío. % S"
+Please specify a shipping method.,"Especifique un método de envío."
+Please check billing address information. %s,"Por favor, consulte la información de dirección de facturación. % S"
+Please select a valid payment method.,"Por favor, seleccione un método de pago válido."
+This email adress is already registered. Please enter another email to register account or login using this email.,"Esta dirección de correo electrónico ya está registrada. Ingrese otra cuenta de correo electrónico para registrarse o iniciar la sesión utilizando el correo electrónico."
+Invalid data.,"Datos no válidos."
+Invalid shipping method.,"Método de envío no es válida."
+Customer Address is not valid.,"Dirección del cliente no es válido."
+"Invalid email address ""%s""","Dirección de correo electrónico no válida ""% s"""
+Invalid checkout type.,Invalid tipo de pago.
+"Sorry, guest checkout is not allowed, please contact support.","Lo sentimos, visita la caja no está permitido, por favor póngase en contacto con soporte."
+Please check shipping address.,"Por favor verifique la dirección de envío."
+Please check billing address.,"Por favor verifique la dirección de facturación."
+Please enter the first name.,"Por favor ingrese el nombre."
+Please enter the last name.,"Por favor introduce el apellido."
+Please enter the company.,"Introduce la empresa."
+Please enter the state/province.,"Por favor introduce el estado / provincia."
+Please enter the street.,""Por favor, introduzca la calle.""
+Please enter the city.,"Por favor introduzca la ciudad."
+Please enter the zip code.,"Por favor introduce el código postal."
+Please enter the phone number.,"Por favor, introduzca el número de teléfono."
+Please enter the fax.,Por favor introduce el fax.
+Please choose the country.,"Por favor seleccione el país."
+"Account confirmation is required. Please, check your email for confirmation link. <a href=""%s"">Click here</a> to resend confirmation email.","Se requiere confirmación de cuenta. Por favor, comprueba tu email para enlace de confirmación. <a href=""%s""> clic aquí </ a> para enviar correo electrónico de confirmación."
+Forgot Password?,"¿Olvidó su contraseña?"
+Please enter your email below and we will send you a new password.,"Introduzca su dirección de correo electrónico debajo y le enviaremos una nueva contraseña."
+Email,Email
+Back to Login,Volver a inicio
+Submit,Presentar
+Login to your Account,Accede a tu cuenta
+Email Address,"Dirección de correo electrónico"
+Password,"Contraseña"
+Forgot Your Password?,"¿Has olvidado tu contraseña?"
+Login,Login
+Fill in the fields below to complete your purchase!,Rellene los campos de abajo para completar su compra!
+Comment,Comentario
+Sign up for our newsletter,"Suscríbase a nuestro boletín de noticias"
+"Sorry, no quotes are available for this order at this time.","Lo sentimos, no hay citas disponibles para este fin en este momento."
+Product Name,Nombre del producto
+Qty,Cantidad
+Subtotal,Total parcial
+Total,Total
+Total incl. tax,Incl total. impuesto
+Your credit card will be charged for,"Su tarjeta de crédito será cargada por"
+Please enter your full address to obtain a shipping quote.,"Introduzca su dirección completa para obtener una cotización de envío."
+Incl. Tax,Incl. Impuesto
+Name & Address,"Nombre y dirección"
+Select a billing address from your address book or enter a new address.,"Seleccione una dirección de facturación de su libreta de direcciones o introduzca una nueva dirección."
+Company,Empresa
+Address,"Dirección"
+Street Address,"Dirección"
+Street Address %s,"Dirección% s"
+City,Ciudad
+State / Province,Estado / Provincia
+Select One,Seleccione Uno
+Zip Code,"Código postal"
+Telephone,"Teléfono"
+Fax,Fax
+Create an account for later use,"Crear una cuenta para su uso posterior"
+Confirm Password,"Confirmar Contraseña"
+Save in address book,Guardar en la libreta de direcciones
+Discount Codes,"Códigos de Descuento"
+Enter your coupon code if you have one.,"Ingrese su código de descuento si usted tiene uno."
+Cancel Coupon,"Cancelar Cupón"
+Apply Coupon,"Aplicar Cupón"
+Proceed to Checkout,"Realizar Pedido"
+Payment Method,Forma de pago
+Close,Cerrar
+Card Verification Number Visual Reference,"Tarjeta de verificación de número de referencia de Visual"
+Review Your Order,"Revisión del pedido"
+Place Order Now,Realizar Pedido
+Submitting order information...,"Envío de información de la orden ..."
+Shipping Method,"Método de envío"
+Ship to this address,"Enviar a esta dirección"
+New Shipping Address,"Nueva Dirección de Envío"
+Select a shipping address from your address book or enter a new address.,"Seleccione una dirección de envío de su libreta de direcciones o introduzca una nueva dirección."
+Date of Birth,Fecha de nacimiento
+Day,"Día"
+Month,Mes
+Year,"Año"
+DD,DD
+MM,MM
+YYYY,YYYY
+Gender,"Género"
+Prefix,Prefijo
+First Name,Nombre
+M.I.,M.I.
+Last Name,Apellido
+Suffix,Sufijo
+Tax/VAT number,NIF / IVA
+THE SHOPPING CART IS CURRENTLY EMPTY,"EN LA BOLSA DE LA COMPRA ESTÁ VACÍA"
+Thank you for visiting,Gracias por su visita
+"If you are having issues with the shopping cart, <br />please","Si usted está teniendo problemas con la bolsa de compras, por favor <br />"
+email support,"soporte por correo electrónico"
+or call,o llame al
+CONTINUE SHOPPING,CONTINUAR
