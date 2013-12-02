@@ -1,0 +1,12 @@
+OnepageCheckout                                   app/code/local/IWD/OnepageCheckout
+frontend/template/onepagecheckout       app/design/frontend/base/default/template/onepagecheckout
+frontend/layout/onepagecheckout.xml                app/design/frontend/base/default/layout/onepagecheckout.xml
+
+IWD_OnepageCheckout.xml.xml                          app/etc/modules/IWD_OnepageCheckout.xml.xml
+lib/iwd lib/iwd
+lib/MaxMind lib/MaxMind
+
+skin/js/onepagecheckout.js  skin/frontend/base/default/js/onepagecheckout.js
+skin/css/onepagecheckout.css  skin/frontend/base/default/css/onepagecheckout.css
+skin/images/onepagecheckout  skin/frontend/base/default/images/onepagecheckout
+
