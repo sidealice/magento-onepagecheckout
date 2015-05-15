@@ -6,5 +6,3 @@ IWD_Opc.xml                 app/etc/modules/IWD_Opc.xml
 skin/frontend/base/default/css/iwd/opc					skin/frontend/base/default/css/iwd/opc
 skin/frontend/base/default/js/iwd/opc					skin/frontend/base/default/js/iwd/opc
 
-lib/iwd 					lib/iwd
-lib/MaxMind 				lib/MaxMind
